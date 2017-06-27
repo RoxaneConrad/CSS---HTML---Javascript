@@ -1,7 +1,6 @@
 /* style.css */
 
 body{
-  background: #fff;
   color: #000; 
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -25,26 +24,25 @@ nav ul {
 }
 
 ul{
-  background-color: #E10052;
   color: #FFFFFF
 }
 
 h1{
-  font-family: 'Courrier', sans-serif;
-  color:  #41A3C0; 
+  font-family: 'Anton', sans-serif;
+ color: rgb(128, 128, 0);
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
-  font-family: 'Courrier', sans-serif;
-  color: #3b4563;
-  font-weight: lighter;
+  font-family: 'Anton', sans-serif;
+  color: rgb(128, 128, 0);
+  font-weight: bolder;
   font-size: 1.5em;
 }
 
 p{
-  color: #8e9bac;
+  color: white;
 }
 
 a { 
@@ -57,7 +55,6 @@ a:hover {
 }
 
 #logo{
-  background-color: #E10052;
   color: #FFFFFF;
   font-size: 50px;
   font-family: 'Pacifico', cursive;
@@ -67,7 +64,7 @@ a:hover {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #E10052;
+  background-image: url(3025696718_2a84e35fdc_b-1.jpg);
   text-align: center;
   background-size: cover;
   padding: 100px;
@@ -102,7 +99,7 @@ a:hover {
 
 .feature,.defi{
   border: 1px solid #F2F2F2;
-  background: #FAFAFA;
+  background-color: rgb(244, 102, 27);
   margin: 15px;
   padding: 15px 0;
   text-align: center;
@@ -120,3 +117,31 @@ a:hover {
  font-size: 50px;
 }
 
+#defis{
+  margin-top:100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+
+#defis h2 {
+  color: rgb(225, 0, 152);
+
+}
+
+footer {
+  text-align:center;
+  background-color: rgb(165, 38, 10);
+}
+
+
+
+footer p {
+   color: white;
+   margin: 0;
+   padding: 0;
+}
